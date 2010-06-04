@@ -1,0 +1,21 @@
+gwt-geom
+-------
+
+gwt-geom is a port of the OpenJDK java.awt.geom package to work on GWT. 
+It is especially useful for Constructive Area Geometry (CAG) manipulations.
+I use it for easily testing whether a screen click on an image is contained
+in a certain shape { for example shape.contains(x,y) }.
+
+Drawing to screen can be done using a 2d drawing library (currently gwt-g2d
+is supported).
+
+Most of the java.awt.geom package is available, as well as a few shapes from
+the java.awt package. I have chosen to rename the package to gwt.awt since
+we aren't providing all of java.awt and this helped me to ensure I wasn't using
+any unported code.
+
+Run ant devmode to see a simple demo.
+
+See ant -p for more options
+
+

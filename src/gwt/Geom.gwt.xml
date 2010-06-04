@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <inherits name='gwt.g2d.g2d'/>
+  <source path='awt'/>
+</module>

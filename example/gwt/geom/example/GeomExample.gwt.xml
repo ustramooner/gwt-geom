@@ -1,0 +1,7 @@
+<module rename-to="geom">
+	<inherits name="com.google.gwt.user.User"/>
+    <inherits name='gwt.g2d.g2d'/>
+    <inherits name='gwt.Geom'/>
+    <source path='client'/>
+	<entry-point class="gwt.geom.example.client.Geom"/>
+</module>
